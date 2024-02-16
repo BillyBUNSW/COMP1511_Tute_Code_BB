@@ -1,7 +1,7 @@
 // face.c
 //
-// Written by YOUR-NAME (YOUR-ZID),
-// on TODAYS-DATE 
+// Written by Billy z5417266,
+// on 16-02-24
 //
 // The program prints two simple faces
 //
@@ -23,6 +23,6 @@ int main(void) {
     printf("~ ~\n");
     printf("0 0\n");
     printf(" o  \n");
-    printf("\\_/\n");
+    printf("\\_/\n"); // escape sequence \\ prints a single '\'
     return 0;
 }
