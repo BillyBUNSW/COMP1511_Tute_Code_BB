@@ -1,6 +1,7 @@
 // Basic Hello, World! program
 
 #include <stdio.h>
+// allows usage of a collection of functions relating to terminal inputs and outputs
 
 int main(void) {
     // This prints "Hello, World!" to the terminal, and the next terminal
@@ -10,4 +11,5 @@ int main(void) {
     printf("Hello, World!\n");
     
     return 0;
+    // return 0 means the code executed without any errors
 }
