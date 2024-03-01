@@ -65,7 +65,7 @@ int main(void) {
         cost = cost + ADDED_COST;
     } 
     
-    if (order.type == LATTE) {
+    if (order.type == LATTE || order.type == MATCHA) {
         cost = cost + ADDED_COST;
     }
 
