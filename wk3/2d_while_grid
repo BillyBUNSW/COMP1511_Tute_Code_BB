@@ -1,0 +1,32 @@
+// part2_2d_while_loops.c
+//
+// This program was writtn by Sofia De Bellis (z5418801)
+// on Febuarary 2024
+//
+// This program is a simple deonstration of a 2D while loop 
+
+#include <stdio.h>
+
+#define SIZE 4
+
+int main(void) {
+    // A 
+
+    int row = 0;
+    int col = 0;
+    while(row < SIZE) {
+        col = 0;
+        while(col < SIZE) {
+            if (row == col) {
+                printf("O");
+            } else {
+                printf("X");
+            }
+            col++;
+        }
+        printf("\n");
+        row++;
+    }
+
+    return 0;
+}
